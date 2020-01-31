@@ -1,24 +1,41 @@
-body {
-    min-height: 100vh; /* ----Represents mean height of the window percentage-----  */
-    display: flex;
-    justify-content:center ;
+/* Allign container to center*/
+body{
+    min-height: 100vh;
+    display:flex;
     align-items: center;
-
-}
-
-.btncolor{
-    padding: 0.25rem 0.5rem;
-    border: 3px solid #fefefe;
-    border-radius: 8px;
-    color: #fefefe;
-    background:rgba(0,0,0,0.6);
-    font-size: 1.5rem;
+    justify-content: #ffd0a8;
+    color:#333;
+    font-family: "calibri";
+    font-weight: 500;
     text-transform: capitalize;
-    cursor:pointer;
-    outline:none; /* ----get rids of unnecessary outline-----  */
-
+}
+#parentQuotes{
+    text-align: center;
+    padding:2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80; /* box ll always be 80% */
+}
+#btnquotes{
+    border: none;
+    color:#fff;
+    background: #d89156;
+    font-size: 1.3rem;
+    padding:0.25rem 0.5rem;
+    border-radius:8px
 }
 
-.btncolor:hover{
-    background: rgb(0,0,5);
+#btnquotes:hover{
+    color:#ffd800;
+}
+
+#blockquote{
+    background:#f9f9f9;
+    border-left: 10px solid #fcdbbf;
+    margin: 1.5rem;
+    padding:0.5rem;
+}
+
+#quoteAuthor{
+    color:#ffd000;
 }
