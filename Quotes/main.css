@@ -1,45 +1,48 @@
 /* Allign container to center*/
-body{
+body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSa-z0R5nYq_iDFfHhSJF_y9u55qwVWbnLc8pbsMdWrtMUBeDks");
-    background-size: 355.2em; 
-    background-repeat: 
-    no-repeat; 
-    color:#333;
+    background-size: 355.2em;
+    background-repeat:
+        no-repeat;
+    color: #333;
     font-family: "elephant";
     font-weight: 500;
     text-transform: capitalize;
 }
-#parentQuotes{
+
+#parentQuotes {
     text-align: center;
-    padding:5rem;
+    padding: 5rem;
     border-radius: 15px;
     background-color: white;
-    flex: 0 0 200; /* box ll always be 80% */
-}
-#btnquotes{
-    border: none;
-    color:#fff;
-    background: #d89156;
-    font-size: 1.3rem;
-    padding:0.25rem 0.5rem;
-    border-radius:8px
+    flex: 0 0 200;
+    /* box ll always be 80% */
 }
 
-#btnquotes:hover{
+#btnquotes {
+    border: none;
+    color: #fff;
+    background: #d89156;
+    font-size: 1.3rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 8px
+}
+
+#btnquotes:hover {
     color: rgb(150, 96, 3);
 }
 
-#blockquote{
-    background:#f9f9f9;
+#blockquote {
+    background: #f9f9f9;
     border-left: 10px solid #fcdbbf;
     margin: 9.5rem;
-    padding:0.5rem;
+    padding: 0.5rem;
 }
 
-#quoteAuthor{
-    color:rgb(150, 96, 3);
+#quoteAuthor {
+    color: rgb(150, 96, 3);
 }
